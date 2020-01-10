@@ -37,6 +37,7 @@ public class JavaCript {
 		          WebElement app = driver.findElement(By.xpath("//input[@value = 'Log In']"));
 		                       
 		             js.executeScript("arguments[0].click()",app);
+		             System.out.println("completed successfully");
 		             
 	}	               
 		          
